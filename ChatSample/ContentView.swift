@@ -10,10 +10,20 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            HStack{
+                Image(systemName: "person.circle")
+                    .resizable()
+                    .frame(width: 50, height: 50)
+                VStack(alignment: .leading){
+                    Text("Rohan")
+                        .font(.title).bold()
+                    Text("Online")
+                        .font(.caption)
+                       // .foregroundColor(.gray)
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+            }
+            
         }
         .padding()
     }
@@ -22,5 +32,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .background(Color.green)
     }
 }
