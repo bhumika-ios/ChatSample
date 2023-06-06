@@ -11,6 +11,9 @@
 		ACC958B12A2F142D00DB309A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC958B02A2F142D00DB309A /* ContentView.swift */; };
 		ACC958B32A2F143000DB309A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC958B22A2F143000DB309A /* Assets.xcassets */; };
 		ACC958B62A2F143000DB309A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC958B52A2F143000DB309A /* Preview Assets.xcassets */; };
+		ACC958BD2A2F246B00DB309A /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC958BC2A2F246B00DB309A /* TitleRow.swift */; };
+		ACC958BF2A2F26F800DB309A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC958BE2A2F26F800DB309A /* Message.swift */; };
+		ACC958DD2A2F2CD900DB309A /* MessageUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC958DC2A2F2CD900DB309A /* MessageUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		ACC958B02A2F142D00DB309A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACC958B22A2F143000DB309A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACC958B52A2F143000DB309A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACC958BC2A2F246B00DB309A /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
+		ACC958BE2A2F26F800DB309A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		ACC958DC2A2F2CD900DB309A /* MessageUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,9 @@
 		ACC958A22A2F142D00DB309A = {
 			isa = PBXGroup;
 			children = (
+				ACC958DC2A2F2CD900DB309A /* MessageUI.swift */,
+				ACC958BE2A2F26F800DB309A /* Message.swift */,
+				ACC958BC2A2F246B00DB309A /* TitleRow.swift */,
 				ACC958AD2A2F142D00DB309A /* ChatSample */,
 				ACC958AC2A2F142D00DB309A /* Products */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACC958B12A2F142D00DB309A /* ContentView.swift in Sources */,
+				ACC958DD2A2F2CD900DB309A /* MessageUI.swift in Sources */,
+				ACC958BF2A2F26F800DB309A /* Message.swift in Sources */,
 				ACC958AF2A2F142D00DB309A /* ChatSampleApp.swift in Sources */,
+				ACC958BD2A2F246B00DB309A /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
